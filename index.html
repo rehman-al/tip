@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip calculator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <p>TIP <i class="fa-solid fa-hand-holding-dollar"></i></p>
+    </div>
+
+    <div class="calculator">
+      <div class="details">
+        <div class="bill-box">
+          <label for="bill">Bill</label>
+          <input type="number" class="bill" id="bill">
+          <img src="images/icon-dollar.svg" alt="error  404">
+        </div>
+
+        <div class="percentage">
+          <span class="tip-text">Select Tip %</span>
+          <div class="a" id="defalut-5">5%</div>
+          <div class="a" id="defalut-10">10%</div>
+          <div class="a" id="defalut-15">15%</div>
+          <div class="a" id="defalut-25">25%</div>
+          <div class="a" id="defalut-50">50%</div>
+          <input id="custom" type="number" placeholder="custom"> 
+        </div>
+
+        <div class="people-box">
+          <label for="people">Number of People</label>
+          <input type="number" id="people">
+          <img src="images/icon-person.svg" alt="error 404">
+        </div>
+
+      </div>
+      <div class="cal">
+
+        <div class="tip-am">
+          <div class="tip-person">
+            <p>Tip Amount</p>
+            <p>/ person</p>
+          </div>
+          <div id="single-person">$0.00</div>
+        </div>
+
+        <div class="tip-tlt">
+          <div class="total">
+            <p>Total Amount</p>
+          </div>
+          <div id="total-bill">$0.00</div>
+        </div>
+
+
+
+        <button id="reset">Reset</button>
+
+
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
